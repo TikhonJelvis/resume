@@ -1,0 +1,11 @@
+#!/usr/bin/env bash
+
+file=$1
+format="pdf"
+out="${file%.*}.${format}"
+
+pandoc --to "$format" \
+       --output "$out" \
+       --pdf-engine xelatex \
+       --template templates/resume.latex.template \
+       "$file"

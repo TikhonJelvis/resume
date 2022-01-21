@@ -1,3 +1,5 @@
-# Tikhon Jelvis
+---
+name: Tikhon Jelvis
+---
 
 My resume?

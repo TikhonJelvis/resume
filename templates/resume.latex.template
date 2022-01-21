@@ -1,0 +1,48 @@
+\documentclass[10pt]{article}
+
+%% Custom fonts with XeTeX
+\usepackage{fontspec,xltxtra,xunicode}
+\setmainfont{Junction}
+\setmonofont{DejaVuSansMono}
+\newfontfamily\headerfont{Aller}
+
+\pagestyle{plain}
+
+\usepackage[dvipsnames,svgnames,x11names]{xcolor}
+
+\usepackage[breaklinks=true]{hyperref}
+\hypersetup{
+  $if(colorlinks)$
+  colorlinks,%
+  linkcolor=$if(linkcolor)$$linkcolor$$else$blue$endif$,
+  citecolor=$if(citecolor)$$linkcolor$$else$blue$endif$,
+  filecolor=$if(filecolor)$$linkcolor$$else$blue$endif$,
+  urlcolor=$if(urlcolor)$$linkcolor$$else$blue$endif$,
+  $else$
+  hidelinks
+  $endif$
+}
+
+\usepackage{geometry}
+\geometry{
+  verbose,
+  letterpaper,
+  tmargin=2cm,
+  bmargin=2.5cm,
+  lmargin=3cm,
+  rmargin=3.5cm
+}
+
+\usepackage[american]{babel}
+
+\usepackage{graphicx}
+
+%% Command Pandoc needs:
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+
+{\huge\headerfont $name$}
+
+\end{document}
