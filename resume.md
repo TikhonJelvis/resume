@@ -50,7 +50,7 @@ github: TikhonJelvis
   * Director | Haskell.org, inc | 2018–now
   * Organizer | BayHac | 2017–2018
   * Organizer | Bay Area Haskell Meetup | 2016–2020
-  * 10+ conference talks | 2015–2021
+  * 10+ conference talks | 2015–now
 
 # Education
 
