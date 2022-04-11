@@ -1,11 +1,18 @@
 #!/usr/bin/env bash
 
 file=$1
-format="pdf"
-out="${file%.*}.${format}"
+name="${file%.*}"
 
-pandoc --to "$format" \
-       --output "$out" \
-       --pdf-engine xelatex \
-       --template templates/resume.latex.template \
-       "$file"
+function run_pandoc {
+  pandoc \
+         --to $1 \
+         --output "$name.$2" \
+         --pdf-engine xelatex \
+         --template templates/resume.latex.template \
+         --lua-filter bin/entries.lua \
+         "$file"
+}
+
+run_pandoc pdf pdf
+run_pandoc latex tex
+run_pandoc native native

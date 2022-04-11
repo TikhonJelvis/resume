@@ -13,7 +13,11 @@
         tex = pkgs.texlive.combine {
           inherit (pkgs.texlive)
             scheme-medium
+            enumitem
             footmisc
+            fontawesome
+            newunicodechar
+            titlesec
             titling
             xpatch
             noto;
@@ -22,15 +26,21 @@
         packages = {
           resume = pkgs.stdenvNoCC.mkDerivation {
             name = "resume";
-            src = ./resume;
-            buildInputs = with pkgs; [ coreutils tex pandoc ];
+            src = ./.;
+            buildInputs = with pkgs; [ coreutils tex pandoc texlab ];
 
             FONTCONFIG_FILE = pkgs.makeFontsConf {
-              fontDirectories = with packages.fonts; [
+              fontDirectories = with packages.fonts; with pkgs; [
                 aller
                 junction
+                dejavu_fonts
+                twitter-color-emoji
               ];
             };
+
+            # Trailing comma (:) is important! Without it, LaTeX won't
+            # find standard classes like article.cls.
+            TEXINPUTS = "./latex:";
           };
 
           fonts = {
