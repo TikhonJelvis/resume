@@ -1,7 +1,24 @@
-\NeedsTeXFormat{LaTeX2e}
-\ProvidesClass{tikhon_resume}[2022/04/10 Tikhon's Resume format]
+\documentclass{article}
 
-\LoadClass{article}
+\usepackage[american]{babel}
+
+\usepackage[dvipsnames,svgnames,x11names]{xcolor}
+\usepackage{graphicx}
+
+
+%% Links
+\usepackage[breaklinks=true]{hyperref}
+\hypersetup{
+  $if(colorlinks)$
+  colorlinks,%
+  linkcolor=$if(linkcolor)$$linkcolor$$else$blue$endif$,
+  citecolor=$if(citecolor)$$linkcolor$$else$blue$endif$,
+  filecolor=$if(filecolor)$$linkcolor$$else$blue$endif$,
+  urlcolor=$if(urlcolor)$$linkcolor$$else$blue$endif$,
+  $else$
+  hidelinks
+  $endif$
+}
 
 
 %% Page setup
@@ -18,7 +35,7 @@
 }
 
 
-%% Fonts + Symbols
+%% Fonts
 \RequirePackage{fontspec,xltxtra,xunicode}
 \setmainfont{Junction}
 \setmonofont{DejaVuSansMono}
@@ -26,6 +43,8 @@
 
 \newfontfamily\dejafont{DejaVu Sans}
 
+
+%% Special Characters
 \RequirePackage{newunicodechar}
 \newunicodechar{✉}{\raisebox{-0.15\height}{\scalebox{1.4}{\dejafont✉}}}
 \providecommand{\email}[1]{%
@@ -37,6 +56,7 @@
   \raisebox{-0.15\height}{\scalebox{1.2}{\faicon{github}}} %
   \href{https://github.com/#1}{{\dejafont github.com/#1}}%
 }
+
 
 %% Section headers
 \RequirePackage{titlesec}
@@ -78,6 +98,7 @@
 \RequirePackage{enumitem}
 \setlist{itemsep=2pt,topsep=0pt}
 
+
 %% Date ranges
 \providecommand{\dated}[2]{%
   \subsection[#1]{#1 \hfill #2}%
@@ -86,3 +107,23 @@
 \providecommand{\datedsub}[2]{%
   \subsubsection[#1]{#1 \hfill #2}%
 }
+
+
+%% Command Pandoc needs:
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+\begin{document}
+
+{\huge\raggedleft\headerfont $name$}
+\titlerule
+
+\vspace{0.25ex}
+
+{\raggedleft\hspace{0.4ex}\github{$github$} \hfill \email{$email$}}
+
+\vspace{2ex}
+
+$body$
+
+\end{document}

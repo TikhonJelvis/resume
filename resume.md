@@ -2,6 +2,7 @@
 name: Tikhon Jelvis
 email: tikhon@jelv.is
 github: TikhonJelvis
+colorlinks: true
 ---
 
 # Experience
