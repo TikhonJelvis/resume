@@ -8,7 +8,7 @@ function run_pandoc {
          --to $1 \
          --output "$name.$2" \
          --pdf-engine xelatex \
-         --template templates/resume.latex.template \
+         --template latex/resume.latex.template \
          --lua-filter bin/entries.lua \
          "$file"
 }

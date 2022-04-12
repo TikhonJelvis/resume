@@ -29,7 +29,7 @@ github: TikhonJelvis
 
 ## Research Assistant | Berkeley Par Lab | Aug 2012–Nov 2013
 
-  * Wrote + evaluated algorithms to synthesize code for GreenArrays  GA144 chips
+  * Implemented + evaluated algorithms to synthesize code for GA144 chips
   * Co-author on PLDI 2014 paper
 
 ## Tech Intern | Jane Street | Jun 2013–Aug 2013
@@ -47,9 +47,9 @@ github: TikhonJelvis
 
 # Community
 
-  * Director | Haskell.org, inc | 2018–now
-  * Organizer | BayHac | 2017–2018
-  * Organizer | Bay Area Haskell Meetup | 2016–2020
+  * Haskell.org Committee | 2018–now
+  * BayHac Organizer | 2017–2018
+  * Bay Area Haskell Meetup Organizer | 2016–2020
   * 10+ conference talks | 2015–now
 
 # Education
