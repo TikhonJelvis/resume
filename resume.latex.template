@@ -5,6 +5,8 @@
 \usepackage[dvipsnames,svgnames,x11names]{xcolor}
 \usepackage{graphicx}
 
+\usepackage{tcolorbox}
+
 
 %% Links
 \usepackage[breaklinks=true]{hyperref}
@@ -24,7 +26,7 @@
 %% Page setup
 \pagestyle{empty}
 
-\RequirePackage{geometry}
+\usepackage{geometry}
 \geometry{
   verbose,
   letterpaper,
@@ -36,7 +38,7 @@
 
 
 %% Fonts
-\RequirePackage{fontspec,xltxtra,xunicode}
+\usepackage{fontspec,xltxtra,xunicode}
 \setmainfont{Junction}
 \setmonofont{DejaVuSansMono}
 \newfontfamily\headerfont{Aller}
@@ -45,21 +47,44 @@
 
 
 %% Special Characters
-\RequirePackage{newunicodechar}
+\usepackage{newunicodechar}
 \newunicodechar{✉}{\raisebox{-0.15\height}{\scalebox{1.4}{\dejafont✉}}}
 \providecommand{\email}[1]{%
   ✉ {\dejafont #1}%
 }
 
-\RequirePackage{fontawesome}
+%% A prefix to use only if colorlinks is off
+$if(colorlinks)$
+\providecommand{\prefix}[2]{#2}
+$else$
+\providecommand{\prefix}[2]{#1#2}
+$endif$
+
+\usepackage{fontawesome}
 \providecommand{\github}[1]{%
   \raisebox{-0.15\height}{\scalebox{1.2}{\faicon{github}}} %
-  \href{https://github.com/#1}{{\dejafont github.com/#1}}%
+  \href{https://github.com/#1}{{\dejafont\prefix{github.com/}{#1}}}%
+}
+\providecommand{\website}[1]{%
+  \raisebox{-0.15\height}{\scalebox{1.2}{\faicon{globe}}} \ %
+  \href{https://#1}{\prefix{https://}{#1}}%
+}
+\providecommand{\linkedin}[1]{%
+  \tcbox[on line,
+    boxsep=0pt,
+    left=1.8pt,
+    right=1.9pt,
+    top=1.8pt,
+    bottom=1.8pt,
+    colback=black,
+    coltext=white,
+    boxrule=0pt]{\raisebox{0.15\height}{\scalebox{0.9}{\faicon{linkedin}}}} %
+  \href{https://www.linkedin.com/in/#1}{\prefix{https://www.linkedin.com/in/}{#1}}%
 }
 
 
 %% Section headers
-\RequirePackage{titlesec}
+\usepackage{titlesec}
 
 \titleformat{\section}[runin]
   {\Large\headerfont}
@@ -95,7 +120,7 @@
 
 
 %% Lists
-\RequirePackage{enumitem}
+\usepackage{enumitem}
 \setlist{itemsep=2pt,topsep=0pt}
 
 
@@ -120,7 +145,18 @@
 
 \vspace{0.25ex}
 
-{\raggedleft\hspace{0.4ex}\github{$github$} \hfill \email{$email$}}
+$if(github)$
+{\raggedleft\hspace{0.4ex}\github{$github$}}%
+$endif$
+$if(website)$
+\hfill {\raggedleft\hspace{0.4ex}\website{$website$}}%
+$endif$
+$if(email)$
+\hfill \email{$email$}%
+$endif$
+$if(linkedin)$
+\hfill \linkedin{$linkedin$}
+$endif$
 
 \vspace{2ex}
 

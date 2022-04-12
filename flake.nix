@@ -14,9 +14,11 @@
           inherit (pkgs.texlive)
             scheme-medium
             enumitem
+            environ
             footmisc
             fontawesome
             newunicodechar
+            tcolorbox
             titlesec
             titling
             xpatch

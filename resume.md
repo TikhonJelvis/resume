@@ -2,6 +2,8 @@
 name: Tikhon Jelvis
 email: tikhon@jelv.is
 github: TikhonJelvis
+website: jelv.is
+linkedin: tikhon-jelvis
 colorlinks: true
 ---
 
