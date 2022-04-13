@@ -11,12 +11,12 @@
 %% Links
 \usepackage[breaklinks=true]{hyperref}
 \hypersetup{
-  $if(colorlinks)$
+  $if(linkcolor)$
   colorlinks,%
   linkcolor=$if(linkcolor)$$linkcolor$$else$blue$endif$,
-  citecolor=$if(citecolor)$$linkcolor$$else$blue$endif$,
-  filecolor=$if(filecolor)$$linkcolor$$else$blue$endif$,
-  urlcolor=$if(urlcolor)$$linkcolor$$else$blue$endif$,
+  citecolor=$if(linkcolor)$$linkcolor$$else$blue$endif$,
+  filecolor=$if(linkcolor)$$linkcolor$$else$blue$endif$,
+  urlcolor=$if(linkcolor)$$linkcolor$$else$blue$endif$,
   $else$
   hidelinks
   $endif$
@@ -48,9 +48,9 @@
 
 %% Special Characters
 \usepackage{newunicodechar}
-\newunicodechar{✉}{\raisebox{-0.15\height}{\scalebox{1.4}{\dejafont✉}}}
+\newunicodechar{✉}{\raisebox{-0.25\height}{\scalebox{1.4}{\dejafont✉}}}
 \providecommand{\email}[1]{%
-  ✉ {\dejafont #1}%
+✉#1%
 }
 
 %% A prefix to use only if colorlinks is off
@@ -62,23 +62,23 @@ $endif$
 
 \usepackage{fontawesome}
 \providecommand{\github}[1]{%
-  \raisebox{-0.15\height}{\scalebox{1.2}{\faicon{github}}} %
+  \raisebox{-0.15\height}{\scalebox{1.2}{\faicon{github}}}\,%
   \href{https://github.com/#1}{{\dejafont\prefix{github.com/}{#1}}}%
 }
 \providecommand{\website}[1]{%
-  \raisebox{-0.15\height}{\scalebox{1.2}{\faicon{globe}}} \ %
+  \raisebox{-0.15\height}{\scalebox{1.2}{\faicon{globe}}} %
   \href{https://#1}{\prefix{https://}{#1}}%
 }
 \providecommand{\linkedin}[1]{%
   \tcbox[on line,
     boxsep=0pt,
-    left=1.8pt,
-    right=1.9pt,
+    left=2.2pt,
+    right=1.8pt,
     top=1.8pt,
     bottom=1.8pt,
     colback=black,
     coltext=white,
-    boxrule=0pt]{\raisebox{0.15\height}{\scalebox{0.9}{\faicon{linkedin}}}} %
+    boxrule=0pt]{\raisebox{0.15\height}{\scalebox{0.8}{\faicon{linkedin}}}} %
   \href{https://www.linkedin.com/in/#1}{\prefix{https://www.linkedin.com/in/}{#1}}%
 }
 
@@ -145,17 +145,17 @@ $endif$
 
 \vspace{0.25ex}
 
-$if(github)$
-{\raggedleft\hspace{0.4ex}\github{$github$}}%
-$endif$
 $if(website)$
-\hfill {\raggedleft\hspace{0.4ex}\website{$website$}}%
+\hfill{\raggedleft\hspace{0.4ex}\website{$website$}}%
 $endif$
-$if(email)$
-\hfill \email{$email$}%
+$if(github)$
+\hspace{0.6em}{\raggedleft\hspace{0.4ex}\github{$github$}}%
 $endif$
 $if(linkedin)$
-\hfill \linkedin{$linkedin$}
+\hspace{0.8em}\linkedin{$linkedin$}
+$endif$
+$if(email)$
+\hspace{0.4em}\email{$email$}%
 $endif$
 
 \vspace{2ex}

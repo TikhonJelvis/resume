@@ -1,10 +1,10 @@
 ---
 name: Tikhon Jelvis
-email: tikhon@jelv.is
+email: tikhon@ jelv.is
 github: TikhonJelvis
 website: jelv.is
 linkedin: tikhon-jelvis
-colorlinks: true
+linkcolor: Blue
 ---
 
 # Experience
@@ -12,16 +12,20 @@ colorlinks: true
 ## Principal Data Scientist | Target | Oct 2019–now
 
   * Led refactor/redesign + containerization for demand forecasting model training
-  * Coordinated across AI + Infra to communicate needs for model training infrastructure
-  * Developed deep-learning model for item/store similarity, used by assortment planning teams
+  * Coordinated across multiple AI teams + Infra on needs for model training infrastructure
+    * Memo shared across Target Tech and influenced product design for new AI cluster
+  * Developed deep-learning model for demand forecasting and item/store similarity
+    * Used in production in assortment planning tool
 * Mentored data scientists on software design and engineering
 
 ## Lead Data Scientist | Target | Jul 2016–Oct 2019
 
-  * Optimized inventory control simulation: 15–20x faster
-  * Tech lead for distribution center simulation, used by teams designing new DCs
+  * Rewrote inventory control simulation with a simpler event-driven design
+    * Faster than previous version by 15–20x
+  * Led software design and development for distribution center 
+    * Initial design evolved into a planning tool for 30+ Target DCs
   * Motivated team to define explicit protocols between components
-  * Open-sourced tool for defining protocols: \github{target/theta-idl}
+    * Overcame friction by writing tool for defining protocols: \github{target/theta-idl}
   * Taught multi-year course on functional programming and Haskell
 
 ## Software Engineer | Esper | Jul 2014–Oct 2015
@@ -36,6 +40,7 @@ colorlinks: true
   * Co-author on PLDI 2014 paper
 
 ## Tech Intern | Jane Street | Jun 2013–Aug 2013
+  * Two OCaml projects: live data visualization tool + userland automount replacement
 
 # Skills
 
@@ -44,7 +49,7 @@ colorlinks: true
 
 # Publications
 
-  * Foundations of Reinforcement Learning | CRC Press, 2022–2023
+  * Foundations of Reinforcement Learning (\github{TikhonJelvis/rl-book}) | CRC Press, 2022–2023
   * Chlorophyll: Synthesis-Aided Compiler for Low-Power Spatial Architectures | PLDI 2014
   * 5 pending patents | 2018–2020
 
