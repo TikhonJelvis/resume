@@ -1,6 +1,6 @@
 ---
 name: Tikhon Jelvis
-email: tikhon@ jelv.is
+email: tikhon@jelv.is
 github: TikhonJelvis
 website: jelv.is
 linkedin: tikhon-jelvis
@@ -12,20 +12,21 @@ linkcolor: Blue
 ## Principal Data Scientist | Target | Oct 2019–now
 
   * Led refactor/redesign + containerization for demand forecasting model training
-  * Coordinated across multiple AI teams + Infra on needs for model training infrastructure
-    * Memo shared across Target Tech and influenced product design for new AI cluster
-  * Developed deep-learning model for demand forecasting and item/store similarity
-    * Used in production in assortment planning tool
-* Mentored data scientists on software design and engineering
+  * Tech lead on experimental deep learning model for demand forecasting
+    * Comparable accuracy with more efficient training vs existing system
+  * Developed store similarity API based on embeddings from deep learning model
+    * Used in production tool for assortment planning
+  * Coordinated across AI teams to establish needs for new AI infrastructure
 
 ## Lead Data Scientist | Target | Jul 2016–Oct 2019
 
-  * Rewrote inventory control simulation with a simpler event-driven design
-    * Faster than previous version by 15–20x
-  * Led software design and development for distribution center 
+  * Rewrote inventory control simulation: faster than previous version by 15–20x
+    * Scaled to support sales and operations planning for ≈30% of Target's inventory
+  * Led software design and development for distribution center simulation
     * Initial design evolved into a planning tool for 30+ Target DCs
   * Motivated team to define explicit protocols between components
-    * Overcame friction by writing tool for defining protocols: \github{target/theta-idl}
+    * Saved the team hours of work each week on deploying pipelines
+    * Wrote a tool to help overcome the team's initial friction: \github{target/theta-idl}
   * Taught multi-year course on functional programming and Haskell
 
 ## Software Engineer | Esper | Jul 2014–Oct 2015

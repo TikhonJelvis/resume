@@ -49,9 +49,7 @@
 %% Special Characters
 \usepackage{newunicodechar}
 \newunicodechar{✉}{\raisebox{-0.25\height}{\scalebox{1.4}{\dejafont✉}}}
-\providecommand{\email}[1]{%
-✉#1%
-}
+\newunicodechar{≈}{{\dejafont≈}}
 
 %% A prefix to use only if colorlinks is off
 $if(colorlinks)$
@@ -60,7 +58,12 @@ $else$
 \providecommand{\prefix}[2]{#1#2}
 $endif$
 
+
+%% Header links (website, GitHub... etc)
 \usepackage{fontawesome}
+\providecommand{\email}[1]{%
+✉\href{mailto:#1}{#1}%
+}
 \providecommand{\github}[1]{%
   \raisebox{-0.15\height}{\scalebox{1.2}{\faicon{github}}}\,%
   \href{https://github.com/#1}{{\dejafont\prefix{github.com/}{#1}}}%
