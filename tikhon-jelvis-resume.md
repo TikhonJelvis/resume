@@ -84,7 +84,7 @@ linkcolor: Blue
   * Director, Haskell.org | 2018–now
     * Director for the 501(c)(3) that runs the Haskell website + community infrastructure
   * BayHac Organizer | 2017–2018
-    * Organized + raised funds for three-day Haskell community event with >100 attendees
+    * Organized + raised funds for three-day Haskell community conference with >100 attendees
   * Bay Area Haskell Meetup Organizer | 2016–2020
     * Hosted 20+ Haskell talks with 20–50 attendees
   * 10+ conference talks | 2015–now
