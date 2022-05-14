@@ -34,8 +34,13 @@
             FONTCONFIG_FILE = pkgs.makeFontsConf {
               fontDirectories = with packages.fonts; with pkgs; [
                 aller
+                bakoma_ttf
+                lmodern
+                fira
                 junction
                 dejavu_fonts
+                eb-garamond
+                gyre-fonts
                 twitter-color-emoji
               ];
             };

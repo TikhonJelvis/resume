@@ -1,4 +1,4 @@
-\documentclass{article}
+\documentclass[10pt]{article}
 
 \usepackage[american]{babel}
 
@@ -39,8 +39,8 @@
 
 %% Fonts
 \usepackage{fontspec,xltxtra,xunicode}
-\setmainfont{Junction}
-\setmonofont{DejaVuSansMono}
+\setmainfont{Fira Sans}
+\setmonofont{Fira Mono}
 \newfontfamily\headerfont{Aller}
 
 \newfontfamily\dejafont{DejaVu Sans}

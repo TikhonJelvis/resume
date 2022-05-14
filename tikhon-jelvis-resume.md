@@ -34,17 +34,17 @@ linkcolor: Blue
 ## Lead Data Scientist | Target | Jul 2016–Oct 2019
 
   * Designed three generations of Target's multi-echelon inventory control simulation
-    * Scaled to support sales and operations planning for ≈30% of Target's inventory
-    * Improved SKU availability by 50bps
+    * Scaled to support sales and operations planning for ≈30% of Target's SKUs
+    * Improved SKU availability across Target stores by 50bps
     * Detected supply chain defects ahead of time
     * Supported scenario planning for events like COVID or extreme weather
-    * Runtime performance improved by 15–20x across generations
+    * Improved runtime performance by 15–20x across generations
   * Led software design for warehouse operations simulation
     * Simulated scenarios for new automation in Perth-Amboy flow center
     * Evolved into labor planning tool for 30+ Target distribution centers
-  * Motivated team to define explicit protocols between components
-    * Saved the team hours of work each week on deploying pipelines
-    * Wrote interface description language to help overcome the team's initial friction: \github{target/theta-idl}
+  * Led team to define explicit protocols between pipeline components
+    * Saved hours of work each week when deploying pipelines
+    * Designed interface description language to help overcome the team's initial friction: \github{target/theta-idl}
   * Taught multi-year course on functional programming and Haskell
 
 ## Software Engineer | Esper | Jul 2014–Oct 2015
@@ -71,22 +71,22 @@ linkcolor: Blue
 
 <!-- Add details about Quora/Stack Overflow/etc -->
 
-  * Foundations of Reinforcement Learning (\github{TikhonJelvis/rl-book}) | CRC Press, 2022–2023
+  * *Foundations of Reinforcement Learning* (\github{TikhonJelvis/rl-book}) | CRC Press, 2022–2023
     * Co-author with Ashwin Rao; used for CME 241 at Stanford
   * Chlorophyll: Synthesis-Aided Compiler for Low-Power Spatial Architectures | PLDI 2014
   * 5+ pending patents | 2018–2020
 
-  <!-- Better phrasing/organization? -->
 # Projects
+<!-- Better phrasing/organization? -->
 
   * 10+ [conference talks][talks] | 2015–now
     * [Reasoning under Uncertainty][uncertainty] Introduction to Markov decision processes (Haskell Love 2020)
     * [Functional Reactive Progreamming][frp] (Scale by the Bay 2019)
     * [Radix Trees][radix-trees] (Lambda World 2018, Scale by the Bay 2018)
-  * Open source projects
+  * Open source
     * Theta (\github{target/theta-idl}: an interface description language and serialization library for Haskell, Rust and Python
+    * Didactic Python [RL framework][rl] for *Foundations of Reinforcement Learning* book
     * Upstreamed fixes to [Nixpkgs], the [Haskell avro library][haskell-avro] and more
-
 
 [talks]: https://jelv.is/talks/
 [radix-trees]: https://jelv.is/talks/lambda-world-2018
@@ -94,6 +94,7 @@ linkcolor: Blue
 [frp]: https://www.youtube.com/watch?v=ePgWU3KZvfQ
 [haskell-avro]: https://github.com/haskell-works/avro
 [Nixpkgs]: https://github.com/NixOS/nixpkgs
+[rl]: github.com/tikhonJelvis/rl-book/
 
 # Community
 
