@@ -47,8 +47,6 @@ linkcolor: Blue
     * Wrote interface description language to help overcome the team's initial friction: \github{target/theta-idl}
   * Taught multi-year course on functional programming and Haskell
 
-<!-- Section for open source, talks... etc -->
-
 ## Software Engineer | Esper | Jul 2014–Oct 2015
 
   * Implemented OAuth, IMAP and GMail API in backend
@@ -74,20 +72,37 @@ linkcolor: Blue
 <!-- Add details about Quora/Stack Overflow/etc -->
 
   * Foundations of Reinforcement Learning (\github{TikhonJelvis/rl-book}) | CRC Press, 2022–2023
+    * Co-author with Ashwin Rao; used for CME 241 at Stanford
   * Chlorophyll: Synthesis-Aided Compiler for Low-Power Spatial Architectures | PLDI 2014
-  * 5 pending patents | 2018–2020
+  * 5+ pending patents | 2018–2020
+
+  <!-- Better phrasing/organization? -->
+# Projects
+
+  * 10+ [conference talks][talks] | 2015–now
+    * [Reasoning under Uncertainty][uncertainty] Introduction to Markov decision processes (Haskell Love 2020)
+    * [Functional Reactive Progreamming][frp] (Scale by the Bay 2019)
+    * [Radix Trees][radix-trees] (Lambda World 2018, Scale by the Bay 2018)
+  * Open source projects
+    * Theta (\github{target/theta-idl}: an interface description language and serialization library for Haskell, Rust and Python
+    * Upstreamed fixes to [Nixpkgs], the [Haskell avro library][haskell-avro] and more
+
+
+[talks]: https://jelv.is/talks/
+[radix-trees]: https://jelv.is/talks/lambda-world-2018
+[uncertainty]: https://jelv.is/talks/haskell-love-2020
+[frp]: https://www.youtube.com/watch?v=ePgWU3KZvfQ
+[haskell-avro]: https://github.com/haskell-works/avro
+[Nixpkgs]: https://github.com/NixOS/nixpkgs
 
 # Community
 
-<!-- Include links + details -->
-  
   * Director, Haskell.org | 2018–now
     * Director for the 501(c)(3) that runs the Haskell website + community infrastructure
   * BayHac Organizer | 2017–2018
     * Organized + raised funds for three-day Haskell community conference with >100 attendees
   * Bay Area Haskell Meetup Organizer | 2016–2020
     * Hosted 20+ Haskell talks with 20–50 attendees
-  * 10+ conference talks | 2015–now
 
 # Education
 
