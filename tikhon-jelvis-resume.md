@@ -33,25 +33,25 @@ linkcolor: Blue
 
 ## Lead Data Scientist | Target | Jul 2016–Oct 2019
 
-  * Designed three generations of Target's multi-echelon inventory control simulation
+  * Designed three generations of Target's multi-echelon inventory control simulation (Haskell, Rust)
     * Scaled to support sales and operations planning for ≈30% of Target's SKUs
     * Improved SKU availability across Target stores by 50bps
     * Detected supply chain defects ahead of time
     * Supported scenario planning for events like COVID or extreme weather
     * Improved runtime performance by 15–20x across generations
-  * Led software design for warehouse operations simulation
+  * Led software design for warehouse operations simulation (Python)
     * Simulated scenarios for new automation in Perth-Amboy flow center
     * Evolved into labor planning tool for 30+ Target distribution centers
   * Led team to define explicit protocols between pipeline components
     * Saved hours of work each week when deploying pipelines
-    * Designed interface description language to help overcome the team's initial friction: \github{target/theta-idl}
+    * Designed interface description language to help overcome the team's initial friction: \github{target/theta-idl} (Haskell, Rust, Python)
   * Taught multi-year course on functional programming and Haskell
 
 ## Software Engineer | Esper | Jul 2014–Oct 2015
 
-  * Implemented OAuth, IMAP and GMail API in backend
-  * Integrated GMail frontend with our Chrome extension
-  * Prototyped Android app
+  * Implemented OAuth, IMAP and GMail API in backend (OCaml)
+  * Wrote Chrome extension that injected a tool bar + sidebar into GMail UI (TypeScript)
+  * Prototyped Android app (Java)
 
 ## Research Assistant | Berkeley Par Lab | Aug 2012–Nov 2013
 
