@@ -67,9 +67,7 @@ linkcolor: Blue
   * Languages: Haskell, Python, Rust, OCaml, Scala, Java, TypeScript, JavaScript
   * Skills: Hadoop/Hive, Nix, stochastic optimization, simulation, domain-specific languages (DSLs)
 
-# Writing
-
-<!-- Add details about Quora/Stack Overflow/etc -->
+# Publications
 
   * *Foundations of Reinforcement Learning* (\github{TikhonJelvis/rl-book}) | CRC Press, 2022–2023
     * Co-author with Ashwin Rao; used for CME 241 at Stanford
@@ -87,6 +85,12 @@ linkcolor: Blue
     * Theta (\github{target/theta-idl}: an interface description language and serialization library for Haskell, Rust and Python
     * Didactic Python [RL framework][rl] for *Foundations of Reinforcement Learning* book
     * Upstreamed fixes to [Nixpkgs], the [Haskell avro library][haskell-avro] and more
+   * Writing
+     * Top 20 Haskell contributor on Stack Overflow
+     * Quora Top Writer; example posts:
+       * [How to decided which modules to couple or decouple][quora-coupling]
+       * [Why I use Haskell][quora-why-haskell]
+       * [Explanation of laziness in Haskell][quora-laziness]
 
 [talks]: https://jelv.is/talks/
 [radix-trees]: https://jelv.is/talks/lambda-world-2018
@@ -95,6 +99,9 @@ linkcolor: Blue
 [haskell-avro]: https://github.com/haskell-works/avro
 [Nixpkgs]: https://github.com/NixOS/nixpkgs
 [rl]: github.com/tikhonJelvis/rl-book/
+[quora-coupling]: https://www.quora.com/In-programming-how-do-you-decide-which-module-should-be-coupled-and-which-should-be-decoupled/answer/Tikhon-Jelvis
+[quora-why-haskell]: https://www.quora.com/What-can-Haskell-do/answer/Tikhon-Jelvis
+[quora-laziness]: https://www.quora.com/Can-you-explain-Haskells-laziness-in-laymans-terms/answer/Tikhon-Jelvis
 
 # Community
 
