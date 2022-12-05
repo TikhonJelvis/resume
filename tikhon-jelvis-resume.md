@@ -9,7 +9,7 @@ linkcolor: Blue
 
 # Experience
 
-## Principal Data Scientist | Target | Oct 2019–now
+## Principal ML Engineer | Target | Oct 2019–Jun 2022
 
 <!-- Describe demand forecasting: different granularities, operations, planning -->
 
@@ -17,7 +17,7 @@ linkcolor: Blue
 
   * Tech lead on large-scale deep learning model for demand forecasting
     * Day-granularity forecasts for 100k SKUs x 2000 Target stores x 14 weeks (20B forecasts)
-    * Trained embeddings used for similarity, clustering and training explainable forecasting models
+    * Generated embeddings used for similarity, clustering and training explainable forecasting models
   * Developed store similarity API based on embeddings from deep learning model
     * Created first-of-a-kind item-store demand-based clustering model, used for assortment planning
   * Led refactor/redesign + containerization for demand forecasting model training
@@ -31,7 +31,7 @@ linkcolor: Blue
 <!-- Example: property-based testing, which helped several teams prevent bugs from getting into production  -->
 <!-- Another example... -->
 
-## Lead Data Scientist | Target | Jul 2016–Oct 2019
+## Lead ML Engineer | Target | Jul 2016–Oct 2019
 
   * Designed three generations of Target's multi-echelon inventory control simulation (Haskell, Rust)
     * Scaled to support sales and operations planning for ≈30% of Target's SKUs
@@ -72,7 +72,7 @@ linkcolor: Blue
   * *Foundations of Reinforcement Learning* (\github{TikhonJelvis/rl-book}) | CRC Press, 2022–2023
     * Co-author with Ashwin Rao; used for CME 241 at Stanford
   * Chlorophyll: Synthesis-Aided Compiler for Low-Power Spatial Architectures | PLDI 2014
-  * 5+ pending patents | 2018–2020
+  * 5+ pending patents | 2018–2022
 
 # Projects
 <!-- Better phrasing/organization? -->
