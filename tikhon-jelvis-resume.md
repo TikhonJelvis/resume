@@ -9,29 +9,21 @@ linkcolor: Blue
 
 # Experience
 
-## Principal ML Engineer | Target | Oct 2019–Jun 2022
+## Principal Engineer | Oct 2019–Jun 2022
 
 <!-- Describe demand forecasting: different granularities, operations, planning -->
 
 <!-- Consumer Demand Forecasting is an effort to accurately estimate expected demand for products at various (geo)locations and timeperiods, which is critical for planning and operating purposes of a retail business -->
 
-  * Tech lead on large-scale deep learning model for demand forecasting
+  * Engineering lead on large-scale deep learning model for demand forecasting (Python, Hadoop)
     * Day-granularity forecasts for 100k SKUs x 2000 Target stores x 14 weeks (20B forecasts)
     * Generated embeddings used for similarity, clustering and training explainable forecasting models
-  * Developed store similarity API based on embeddings from deep learning model
-    * Created first-of-a-kind item-store demand-based clustering model, used for assortment planning
-  * Led refactor/redesign + containerization for demand forecasting model training
+    * Put model into production with domain-specific APIs
   * Created system requirements for new AI infrastructure across the AI teams at Target
   * Mentored teams working on new-item forecast and forecast training scalability
     * Guided architecture + system design
 
-<!-- Split principal role into three larger sub-sections: demand forecasting, architecture/team, evangalizing -->
-
-<!-- Evangalized new technologies to the team  -->
-<!-- Example: property-based testing, which helped several teams prevent bugs from getting into production  -->
-<!-- Another example... -->
-
-## Lead ML Engineer | Target | Jul 2016–Oct 2019
+## Lead Engineer | Target | Jul 2016–Oct 2019
 
   * Designed three generations of Target's multi-echelon inventory control simulation (Haskell, Rust)
     * Scaled to support sales and operations planning for ≈30% of Target's SKUs
@@ -44,7 +36,7 @@ linkcolor: Blue
     * Evolved into labor planning tool for 30+ Target distribution centers
   * Led team to define explicit protocols between pipeline components
     * Saved hours of work each week when deploying pipelines
-    * Designed interface description language to help overcome the team's initial friction: \github{target/theta-idl} (Haskell, Rust, Python)
+    * Designed interface description language to help overcome the team's initial friction: \github{target/theta-idl}
   * Taught multi-year course on functional programming and Haskell
 
 ## Software Engineer | Esper | Jul 2014–Oct 2015
@@ -69,13 +61,12 @@ linkcolor: Blue
 
 # Publications
 
-  * *Foundations of Reinforcement Learning* (\github{TikhonJelvis/rl-book}) | CRC Press, 2022–2023
+  * *Foundations of Reinforcement Learning* (\github{TikhonJelvis/rl-book}) | CRC Press, 2022
     * Co-author with Ashwin Rao; used for CME 241 at Stanford
   * Chlorophyll: Synthesis-Aided Compiler for Low-Power Spatial Architectures | PLDI 2014
   * 5+ pending patents | 2018–2022
 
 # Projects
-<!-- Better phrasing/organization? -->
 
   * 10+ [conference talks][talks] | 2015–now
     * [Reasoning under Uncertainty][uncertainty] Introduction to Markov decision processes (Haskell Love 2020)
