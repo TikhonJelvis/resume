@@ -82,7 +82,7 @@ linkcolor: Blue
     * [Functional Reactive Progreamming][frp] (Scale by the Bay 2019)
     * [Radix Trees][radix-trees] (Lambda World 2018, Scale by the Bay 2018)
   * Open source
-    * Theta (\github{target/theta-idl}: an interface description language and serialization library for Haskell, Rust and Python
+    * Theta (\github{target/theta-idl}): an interface description language and serialization library for Haskell, Rust and Python
     * Didactic Python [RL framework][rl] for *Foundations of Reinforcement Learning* book
     * Upstreamed fixes to [Nixpkgs], the [Haskell avro library][haskell-avro] and more
    * Writing
