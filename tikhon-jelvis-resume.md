@@ -9,7 +9,13 @@ linkcolor: Blue
 
 # Experience
 
-## Principal Engineer | Oct 2019–Jun 2022
+## Software Engineer | CXScore | Jan 2023–Present
+
+  * A bit of everything as one of the first engineers at CXScore
+  * Built the Python framework we use for running ML models against live web pages
+  * Wrote backend for automated web and mobile accessibility testing
+
+## Principal Engineer | Target | Oct 2019–Jun 2022
 
 <!-- Describe demand forecasting: different granularities, operations, planning -->
 
