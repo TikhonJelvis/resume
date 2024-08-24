@@ -41,7 +41,7 @@ linkcolor: Blue
   * Led software design for warehouse operations simulation (Python)
     * Simulated scenarios for new automation in Perth-Amboy flow center
     * Evolved into labor planning tool for 30+ Target distribution centers
-  * Led team to define explicit protocols between pipeline components
+  * Led team to define explicit protocols between pipeline components (Haskell)
     * Saved hours of work each week when deploying pipelines
     * Designed interface description language to help overcome the team's initial friction: \github{target/theta-idl}
   * Taught multi-year course on functional programming and Haskell
@@ -103,7 +103,7 @@ linkcolor: Blue
 
 # Community
 
-  * Director, Haskell.org | 2018–now
+  * Director, Haskell.org | 2018–2024
     * Director for the 501(c)(3) that runs the Haskell website + community infrastructure
   * BayHac Organizer | 2017–2018
     * Organized + raised funds for three-day Haskell community conference with >100 attendees
