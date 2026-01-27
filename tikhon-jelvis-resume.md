@@ -9,14 +9,27 @@ linkcolor: Blue
 
 # Experience
 
-## Founding Software Engineer | CXScore | Jan 2023–Present
+## Staff Software Engineer | Semgrep | 2025—Present
+
+  Static analysis for software supply chain security (OCaml + Python)
+
+  * Implemented support for transitive reachability analysis across 7 Python and JavaScript package managers
+  * Leading static analysis for breaking change detection. Improved Python support and added TypeScript, giving product 2× reach.
+  * Teaching team functional programming and code design in OCaml
+
+## Software Engineer | Mercury |  2025
+
+  * Implemented and ran reconciliation workflows in Haskell, in time for a tight auditor deadline
+  * Taught team functional programming and code design in Haskell
+
+## Founding Software Engineer | CXScore | 2023–2025
 
   * Built Python framework for running ML models against live web pages
   * Developed accessibility tests using the Python framework + LLMs
   * Expanded framework for automated testing of native mobile apps
   * Wrote backend services for all of our Python-based accessibility tests
 
-## Principal Engineer | Target | Oct 2019–Jun 2022
+## Principal Engineer | Target | 2019–2022
 
 <!-- Describe demand forecasting: different granularities, operations, planning -->
 
@@ -30,11 +43,10 @@ linkcolor: Blue
   * Mentored teams working on new-item forecast and forecast training scalability
     * Guided architecture + system design
 
-## Lead Engineer | Target | Jul 2016–Oct 2019
+## Lead Engineer | Target | 2016–2019
 
-  * Designed three generations of Target's multi-echelon inventory control simulation (Haskell, Rust)
+  * Lead three generations of Target's multi-echelon inventory control simulation (Haskell, Rust)
     * Scaled to support sales and operations planning for ≈30% of Target's SKUs
-    * Improved SKU availability across Target stores by 50bps
     * Detected supply chain defects ahead of time
     * Supported scenario planning for events like COVID or extreme weather
     * Improved runtime performance by 15–20x across generations
@@ -45,50 +57,37 @@ linkcolor: Blue
     * Saved hours of work each week when deploying pipelines
     * Designed interface description language to help overcome the team's initial friction: \github{target/theta-idl}
   * Taught multi-year course on functional programming and Haskell
+  * Our team improved SKU availability across Target stores by 0.5%
 
-## Software Engineer | Esper | Jul 2014–Oct 2015
+## Software Engineer | Esper | 2014–2015
 
   * Implemented OAuth, IMAP and GMail API in backend (OCaml)
   * Wrote Chrome extension that injected a tool bar + sidebar into GMail UI (TypeScript)
   * Prototyped Android app (Java)
 
-## Research Assistant | Berkeley Par Lab | Aug 2012–Nov 2013
+## Research Assistant | Berkeley Par Lab | 2012–2013
 
-  * Implemented + evaluated algorithms to synthesize code for GA144 chips
+  * Implemented + evaluated program synthesis algorithms for the Forth-based GA144 architecture (Racket, Haskell)
   * Co-author on PLDI 2014 paper
 
-## Tech Intern | Jane Street | Jun 2013–Aug 2013
+## Tech Intern | Jane Street | 2013
 
   * Two OCaml projects: live data visualization tool + userland automount replacement
-
-# Skills
-
-  * Languages: Haskell, Python, Rust, OCaml, Scala, Java, TypeScript, JavaScript
-  * Skills: Hadoop/Hive, Nix, stochastic optimization, simulation, domain-specific languages (DSLs)
 
 # Publications
 
   * *Foundations of Reinforcement Learning* (\github{TikhonJelvis/rl-book}) | CRC Press, 2022
-    * Co-author with Ashwin Rao; used for CME 241 at Stanford
+    * Intro RL textbook used for CME 241 at Stanford; co-author with Ashwin Rao
   * Chlorophyll: Synthesis-Aided Compiler for Low-Power Spatial Architectures | PLDI 2014
-  * 5+ pending patents | 2018–2022
+  * 7 issued and pending patents (supply chain optimization, simulation and forecasting)
 
-# Projects
+# Projects and Teaching
 
-  * 10+ [conference talks][talks] | 2015–now
-    * [Reasoning under Uncertainty][uncertainty] Introduction to Markov decision processes (Haskell Love 2020)
-    * [Functional Reactive Progreamming][frp] (Scale by the Bay 2019)
-    * [Radix Trees][radix-trees] (Lambda World 2018, Scale by the Bay 2018)
-  * Open source
-    * Theta (\github{target/theta-idl}): an interface description language and serialization library for Haskell, Rust and Python
-    * Didactic Python [RL framework][rl] for *Foundations of Reinforcement Learning* book
-    * Upstreamed fixes to [Nixpkgs], the [Haskell avro library][haskell-avro] and more
-   * Writing
-     * Top 20 Haskell contributor on Stack Overflow
-     * Quora Top Writer; example posts:
-       * [How to decided which modules to couple or decouple][quora-coupling]
-       * [Why I use Haskell][quora-why-haskell]
-       * [Explanation of laziness in Haskell][quora-laziness]
+  * 15+ [conference talks][talks] on functional programming | 2015–now
+  * Theta (\github{target/theta-idl}): algebraic data types for serialization between Haskell, Rust and Python
+  * [Python framework][rl] for *Foundations of Reinforcement Learning* book
+  * Top 20 Haskell contributor on Stack Overflow
+  * Quora Top Writer; 1000+ articles, mostly on functional programming
 
 [talks]: https://jelv.is/talks/
 [radix-trees]: https://jelv.is/talks/lambda-world-2018
@@ -103,8 +102,8 @@ linkcolor: Blue
 
 # Community
 
-  * Director, Haskell.org | 2018–now
-    * Director for the 501(c)(3) that runs the Haskell website + community infrastructure
+  * Director, Haskell.org | 2018–2024
+    * Director for the 501(c)(3) that runs the Haskell website + community infrastructure, Chair in 2023–2024
   * BayHac Organizer | 2017–2018
     * Organized + raised funds for three-day Haskell community conference with >100 attendees
   * Bay Area Haskell Meetup Organizer | 2016–2020
